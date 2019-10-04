@@ -1,5 +1,3 @@
-import Data.Char
-
 main = do
     print (addDigit 123 4)
     

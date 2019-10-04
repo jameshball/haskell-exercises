@@ -1,5 +1,3 @@
-import Data.Char
-
 main = do
     print (triangleArea (0, 0) (23, 11) (21,8))
 
