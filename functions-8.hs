@@ -1,7 +1,7 @@
 main = do
-    print (choose 6 2)
+    print (choose 96 4)
  
-choose :: Float -> Float -> Float
+choose :: Int -> Int -> Int
 choose n r
     | n - r == 1    = n
-    | otherwise = (n / (n - r)) * (choose (n - 1) r)
+    | otherwise = div (n * (choose (n - 1) r)) (n-r)
